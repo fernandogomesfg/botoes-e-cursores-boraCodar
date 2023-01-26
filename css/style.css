@@ -7,6 +7,11 @@
 :root {
     --bg-color: #1C162C;
 }
+img {
+    width: 16px;
+    border: none;
+    background-color: transparent;
+}
 
 body {
     display: flex;
@@ -18,9 +23,9 @@ body {
 
 header {
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 79px auto 64px 77px;
-    padding-bottom: 32px;
+    padding-bottom: 16px;
 }
 
 /* titulo principal */
@@ -47,11 +52,13 @@ header {
 
 section {
     width: 100%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-left: 77px;
     margin-bottom: 110px;
 }
-
+table {
+    border: 4px solid #1C162C;
+}
 
 /* titulo da tabela */
 th {
