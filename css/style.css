@@ -101,14 +101,14 @@ button {
 }
 /* Botoes DEFAULT */
 /* botao primario  */
-.botao-primario {
+.btn-default-primary {
     background-color: #8257E5;
 }
 
-.botao-secundario {
+.btn-default-secondary {
     background-color: #3C3748;
 }
 
-.botao-terciario {
+.btn-default-teriary {
     background: none;
 }
