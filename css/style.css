@@ -52,11 +52,12 @@ section {
     margin-bottom: 110px;
 }
 
+
 /* titulo da tabela */
 th {
     padding: 24px 16px;
     /* border: 1px solid green; */
-    height: 64px;
+    height: 74px;
     background: var(--bg-color);
     color: white;
     font-family: 'Roboto';
@@ -64,6 +65,12 @@ th {
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
+}
+
+td{
+    height: 75px;
+    width: 200px;
+    text-align: center;
 }
 
 #tbl-titulo {
@@ -76,4 +83,16 @@ th {
     padding: 17px;
     background-color: var(--bg-color);
     color: white;
+}
+
+/* Trabalhando com os botoes */
+button {
+    height: 50px;
+    width: 180px;
+    border-radius: 24px;
+    padding: 12px 24px 12px 24px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+
 }
