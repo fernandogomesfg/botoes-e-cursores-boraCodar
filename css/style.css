@@ -157,4 +157,22 @@ button {
     border: 2px solid #D9CDF7;
 }
 
+/* Botoes DISABLED */
+.btn-disabled-primary {
+    background: rgba(130, 87, 229, 0.2);
+    color: #ccc;
+    cursor: no-drop;
+}
+
+.btn-disabled-secondary {
+    background: rgba(60, 55, 72, 0.2);
+    color: #ccc;
+    cursor: no-drop;
+}
+
+.btn-disabled-tertiary {
+    background: none;
+    color: #ccc;
+    cursor: no-drop;
+}
 
