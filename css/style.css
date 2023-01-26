@@ -130,3 +130,31 @@ button {
 }
 
 
+/* Botoes FOCUS */
+.btn-focus-primary {
+    background: #9674E6;
+}
+
+.btn-focus-primary:focus {
+    background: #8257E5;
+    border: 2px solid #D9CDF7;
+}
+
+.btn-focus-secondary {
+    background: #6A617F;
+}
+
+.btn-focus-secondary:focus {
+    background: #3C3748;
+    border: 2px solid #D9CDF7;
+}
+
+.btn-focus-tertiary {
+    background: none;
+}
+
+.btn-focus-tertiary:focus {
+    border: 2px solid #D9CDF7;
+}
+
+
