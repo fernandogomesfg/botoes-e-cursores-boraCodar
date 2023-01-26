@@ -113,7 +113,8 @@ button {
 .btn-hover-tertiary,
 .btn-focus-tertiary,
 .btn-disabled-tertiary,
-.btn-loading-tertiary {
+.btn-loading-tertiary,
+.btn-movable-tertiary {
     background: none;
 }
 
@@ -195,4 +196,19 @@ button {
 
 .btn-loading-tertiary:hover {
     cursor: progress;
+}
+
+/* Botoes MOVABLE */
+.btn-movable-primary {
+    background: #8257E5;
+}
+
+.btn-movable-secondary {
+    background: #3C3748;
+}
+
+.btn-movable-primary:hover,
+.btn-movable-secondary:hover,
+.btn-movable-tertiary:hover {
+    cursor: col-resize;
 }
