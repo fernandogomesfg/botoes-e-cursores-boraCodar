@@ -95,6 +95,20 @@ button {
     text-align: center;
     align-content: center;
     cursor: pointer;
+    border: none;
+    color: white;
 
 }
+/* Botoes DEFAULT */
+/* botao primario  */
+.botao-primario {
+    background-color: #8257E5;
+}
 
+.botao-secundario {
+    background-color: #3C3748;
+}
+
+.botao-terciario {
+    background: none;
+}
