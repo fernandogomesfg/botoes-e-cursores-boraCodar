@@ -67,7 +67,7 @@ th {
     line-height: 13px;
 }
 
-td{
+td {
     height: 75px;
     width: 200px;
     text-align: center;
@@ -99,6 +99,7 @@ button {
     color: white;
 
 }
+
 /* Botoes DEFAULT */
 .btn-default-primary {
     background-color: #8257E5;
@@ -108,7 +109,11 @@ button {
     background-color: #3C3748;
 }
 
-.btn-default-tertiary, .btn-hover-tertiary {
+.btn-default-tertiary,
+.btn-hover-tertiary,
+.btn-focus-tertiary,
+.btn-disabled-tertiary,
+.btn-loading-tertiary {
     background: none;
 }
 
@@ -149,10 +154,6 @@ button {
     border: 2px solid #D9CDF7;
 }
 
-.btn-focus-tertiary {
-    background: none;
-}
-
 .btn-focus-tertiary:focus {
     border: 2px solid #D9CDF7;
 }
@@ -171,8 +172,27 @@ button {
 }
 
 .btn-disabled-tertiary {
-    background: none;
     color: #ccc;
     cursor: no-drop;
 }
 
+/* Botoes LOADING */
+.btn-loading-primary {
+    background: #8257E5;
+}
+
+.btn-loading-primary:hover {
+    cursor: progress;
+}
+
+.btn-loading-secondary {
+    background: #3C3748;
+}
+
+.btn-loading-secondary:hover {
+    cursor: progress;
+}
+
+.btn-loading-tertiary:hover {
+    cursor: progress;
+}
