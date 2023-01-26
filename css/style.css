@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+:root {
+    --bg-color: #1C162C;
+}
+
 body {
     display: flex;
     flex-flow: row wrap;
@@ -37,4 +41,39 @@ header {
     font-weight: 400;
     font-size: 20px;
     opacity: 0.7;
+}
+
+/* Botoes */
+
+section {
+    width: 100%;
+    border: 1px solid green;
+    margin-left: 77px;
+    margin-bottom: 110px;
+}
+
+/* titulo da tabela */
+th {
+    padding: 24px 16px;
+    /* border: 1px solid green; */
+    height: 64px;
+    background: var(--bg-color);
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+#tbl-titulo {
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 17px;
+    background-color: var(--bg-color);
+    color: white;
 }
